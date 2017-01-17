@@ -1,0 +1,19 @@
+{
+  "name": "tictactoe_byproftapia",
+  "version": "1.0.0",
+  "description": "This is my web game programming in class work that is created by my instructor Arben Tapia",
+  "main": "ttt.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudrakpatel/TicToeTag.git"
+  },
+  "author": "Mudrak Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mudrakpatel/TicToeTag/issues"
+  },
+  "homepage": "https://github.com/mudrakpatel/TicToeTag#readme"
+}
