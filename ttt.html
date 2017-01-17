@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tic-Tac-Toe</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <div id="main" role="main">
+        <h1>Tic-Tac-Toe</h1>
+        <canvas id="game" width="600" height="300"></canvas>
+        <ul>
+            <li><strong>Wins:</strong><span id="wins">0</span></li>
+            <li><strong>Losses:</strong><span id="losses">0</span></li>
+            <li><strong>Ties:</strong><span id="ties">0</span></li>
+        </ul>
+    </div>
+    <div id="scores">
+    </div>
+    <footer></footer>
+
+  
+
+<script src="js/tictactoe.js"></script>
+    <script>
+        init('game');
+    </script>
+
+</body>
+</html>
+
